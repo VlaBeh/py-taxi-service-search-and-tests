@@ -58,4 +58,3 @@ class CarSearchTests(TestCase):
         self.assertNotContains(response, "Camry")
         self.assertNotContains(response, "Mustang")
         self.assertNotContains(response, "Corolla")
-        
